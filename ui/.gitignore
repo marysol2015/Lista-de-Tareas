@@ -1,0 +1,20 @@
+# --- Temporales de Python ---
+# Evita que se suban las carpetas de caché que se ven en tu explorador
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Carpetas de Compilación (PyInstaller) ---
+# Muy importante para cumplir con la regla de excluir archivos innecesarios
+build/
+dist/
+*.spec
+
+# --- Entornos Virtuales ---
+venv/
+.venv/
+env/
+
+# --- Configuraciones de Editor ---
+.vscode/
+.idea/
