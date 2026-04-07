@@ -26,4 +26,3 @@ class TareaServicio:
     def obtener_todas(self):
         return self.tareas
     
-    
